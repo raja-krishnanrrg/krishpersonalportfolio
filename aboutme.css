@@ -1,0 +1,112 @@
+ .navbar a {
+      color: #fff;
+    }
+
+
+    .profile-card {
+      /* background-color: #1a1a2e; */
+      padding: 2rem;
+      border-radius: 20px;
+      text-align: center;
+      /* background-color: rgb(0,0,0); */
+       border: 10px solid black;
+       border-radius: 10px;
+    }
+
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .profile-card h3 {
+      color: rgba(138, 28, 241);
+      font-weight: bold;
+    }
+
+    .skill-title {
+      color: #ffff33;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .progress {
+      height: 10px;
+      border-radius: 10px;
+      background-color: #333;
+      margin-bottom: 20px;
+    }
+
+    .progress-bar {
+      border-radius: 10px;
+      animation: rangebar;
+      animation-duration: 2s;
+    }
+
+    .bodycontain{
+       /* background:linear-gradient(rgb(0,0,0,0.50),rgb(0,0,0,0.50)), url(./images/mountain.jpg) center/cover no-repeat;  */
+      background-color: black; 
+      
+       
+    }
+
+    .para{
+        color: #fff;
+    }
+
+     .aboutss {
+      font-size: 3rem;
+      font-weight: 700;
+      color:  rgba(138, 28, 241);
+      text-shadow: 0 0 20px #3399ff;
+      margin-bottom: 20px;
+      
+    }
+
+    .defines {
+      font-size: 1.25rem;
+      max-width: 700px;
+      color: #e0e0e0;
+    }
+
+    
+    @media (max-width: 768px) {
+      .aboutss {
+        font-size: 2.2rem;
+      }
+      .defines {
+        font-size: 1rem;
+      }
+    }
+    .skills{
+         font-weight: 700;
+      color:  rgba(138, 28, 241);
+    }
+
+            
+ u{
+    border-bottom: 5px solid  rgba(138, 28, 241);
+    text-decoration: none;
+    border-radius: 5px;
+ } 
+ 
+ @keyframes rangebar{
+  0%{
+    width: 5%;
+  }
+ 
+  75%{
+    width:100% ;
+  }
+}
+
+
+
+
+ @media (max-width: 768px) {
+      .textbar{
+        margin-left: 60%;
+      }
+    }

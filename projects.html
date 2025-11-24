@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<video id="video" width="300" autoplay></video>
+<button id="snap">Scan / Capture</button>
+<canvas id="canvas" width="300"></canvas>
+
+<script>
+navigator.mediaDevices.getUserMedia({ video:true })
+.then(stream => {
+  document.getElementById("video").srcObject = stream;
+});
+
+document.getElementById("snap").onclick = () => {
+  const video = document.getElementById("video");
+  const canvas = document.getElementById("canvas");
+  canvas.getContext("2d").drawImage(video, 0, 0, 300, 300);
+};
+</script>
+
+</body>
+</html>

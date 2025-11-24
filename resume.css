@@ -1,0 +1,88 @@
+   .bodycontainresume{
+      background:linear-gradient(rgb(0,0,0,0.50),rgb(0,0,0,0.50)), url(./images/portfolio\ imgage2.jpg) center/cover no-repeat; 
+     overflow: hidden;
+      
+    }
+    .resume-card {
+        border: 15px solid rgba(0,0,0,0.4);
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 30px;
+    }
+    .resume-header h2 {
+      color:  rgba(138, 28, 241);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      color: #fff;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .tag {
+      display: inline-block;
+      background-color: #0b0c10;
+      color: #fff;
+      border: 1px solid  rgba(138, 28, 241);
+      border-radius: 20px;
+      padding: 5px 15px;
+      margin: 5px;
+      font-size: 14px;
+    }
+    a {
+      color: #66fcf1;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #050353;
+    }
+
+    .btn-custom {
+        background-color:  rgba(138, 28, 241); 
+      color: #fff;;
+      border-radius: 25px;
+      padding: 10px 25px;
+      font-weight: 500;
+    }
+
+    .btn-custom:hover {
+      background-color: #050353;;
+      color:floralwhite;
+    }
+
+    @media (max-width: 576px) {
+      .resume-card {
+        padding: 20px;
+        margin: 20px;
+      }
+      .tag {
+        font-size: 12px;
+      }
+    }
+
+    .ttcolor{
+        color:  rgba(138, 28, 241);
+    }
+    .tag:hover{
+       background-color:  rgba(138, 28, 241); 
+       color: #fff;
+       cursor: pointer;
+    }.atags{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+            
+u{
+    border-bottom: 5px solid  rgba(138, 28, 241);
+    text-decoration: none;
+    border-radius: 5px;
+ } 
+
+.cantactnavs a:hover{
+  text-decoration: none;
+  border: none;
+ }

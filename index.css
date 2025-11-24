@@ -1,0 +1,146 @@
+*{
+   
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#navbar{
+    background-color: black;
+    color: aliceblue; 
+}
+#navbar a {
+    
+    color: aliceblue;
+}
+#navbar h1 {
+    
+     font-weight: 600;
+          text-shadow: 2px 2px 15px rgb(138, 28, 241);
+         color: #fff;
+}
+#navbarSupportedContent
+{
+    color: aliceblue;
+}
+
+#navbar >ul,li :hover{
+   border-bottom: 5px solid rgb(138, 28, 241);
+    border-radius: 3px; 
+    
+}
+
+@media (max-width: 768px) {
+ #navbar >ul,li :hover{
+    border-bottom: 5px solid rgb(138, 28, 241);
+    border-radius: 3px;
+    width: 80px;
+    
+}
+    
+}
+
+.bi-github{
+
+    color: #fff;
+    padding-right: 10px;
+}
+.bi-linkedin{
+    
+    color: #fff;
+    padding-right: 10px;
+}
+.bi-instagram{
+     
+    color: #fff;
+    padding-right: 10px;
+}
+ .bi-github:hover{
+    color:rgb(138, 28, 241) ;
+ }
+  .bi-linkedin:hover{
+    color:rgb(138, 28, 241) ;
+ }
+ .bi-instagram:hover{
+       color:rgb(138, 28, 241) ;
+       text-emphasis-color: #fff;
+ }
+#navbar.navbar-toggler{
+background-color: #fff;
+color: #fff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.buttonss  button:hover{
+        background-color:rgb(138, 28, 241)  ;
+        
+}
+.mern{
+    color:#fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background-color: black;
+}
+.bi-arrow-down{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    animation-name: arrow ;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes arrow{
+      0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}
+
+.completed{
+    color: #fff;
+    border: 10px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    height: 100px;
+    width:200px;
+    margin: 10px;
+}
+
+.experince{
+      color: #fff;
+   border: 10px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    height: 100px;
+    width:auto;
+     margin: 10px;
+}
+.statis{
+      color: #fff;
+    border: 10px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    height: 100px;
+    width:auto;
+     margin: 10px;
+}
+
+b{
+    color:rgb(126, 2, 243);
+}
+
+.btn{
+    color: #fff;
+}
+
+        
+ u{
+    border-bottom: 5px solid  rgba(138, 28, 241);
+    text-decoration: none;
+    border-radius: 5px;
+ } 

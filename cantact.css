@@ -1,0 +1,41 @@
+.para{
+        color: #fff;
+    }
+
+    .bodycontainings{
+     background:linear-gradient(rgb(0,0,0,0.50),rgb(0,0,0,0.50)), url(./images/trees.jpg) center/cover no-repeat; 
+    }
+       
+        .card-custom {
+            background-color: #1e1e1e; 
+            border: 1px solid #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .btn-purple {
+            background-color:  rgba(138, 28, 241); 
+            border-color: #7b4397;
+            color: white;
+        }
+        .btn-purple:hover {
+            background-color: rgb(57, 2, 111);
+            border-color:rgb(55, 5, 104);
+            color: white;
+        }
+        .penquin{
+          
+            color: snow;
+        }
+
+        .placehold::placeholder {
+  color: #fff;
+ 
+}
+        
+ u{
+    border-bottom: 5px solid  rgba(138, 28, 241);
+    text-decoration: none;
+    border-radius: 5px;
+ }      
+.placehold:required{
+    background-color: #1e1e1e;
+}
