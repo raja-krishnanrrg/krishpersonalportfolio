@@ -19,6 +19,7 @@
 <!--navbar-->
 
 <div class="bodycontainings">
+ <div class="navbaring d-none d-lg-block">
 <nav class="navbar navbar-expand-lg " id="navbar">
 <div class="container-fluid ">
 <h1 class="navbar-brand" href="index.html"><img src="./images/krish photo02.png" alt="krish images" height="50px" width="50px" style="color: #ffff;"><b> KRISH</b></h1>
@@ -50,7 +51,44 @@
 </div>
 </div>
 </nav>
+</div>
 <!---->
+
+<!--mobile navbar-->
+
+<div class="mobilenavbar">
+<nav class="p-2  text-white d-block d-md-none ">
+<div class="d-flex">
+<span style="font-size:26px; cursor:pointer;"onclick="openMenu()" class="mt-3">☰</span>
+<img class="mobilemarketlogo ms-4" src="./images/krish photo02.png" alt="" style="height: 50px; width:50px"><span class="mt-3 ms-4  "><h1><b>Krish</b></h1></span>
+
+<form class="d-flex pt-3 ms-5 ps-5" role="search">
+<a  href="https://github.com/raja-krishnanrrg" class="px-2 fs-4" ><i class="bi bi-github"></i></a>
+<a href=" https://www.linkedin.com/in/rajakrishnan017" class="px-1 fs-4"><i class="bi bi-linkedin"></i></a>
+<a href="https://www.instagram.com/_kri_zh/" class="px-1 fs-4"><i class="bi bi-instagram"></i></a>
+</form> 
+</div>
+<!---->
+<div id="mobileMenu">
+
+<!-- Close X -->
+<span class="close-btn" ><i class="bi bi-x-lg" onclick="closeMenu()"></i></span>
+
+<!-- MAIN MENU -->
+<div id="mainMenu">
+
+<h5 class="mb-3 back-btn">Menu</h5>
+<div class="mobbutton"> <a href="index.html"><button class="btn  w-100 text-start mb-2">Home</button></a></div> 
+<div class="mobbutton"> <a href="aboutme.html"><button class="btn  w-100 text-start mb-2">About Me</button></a></div>
+<div class="mobbutton"><a href="resumes.html"><button class="btn  w-100 text-start mb-2">My Resume</button></a></div>
+<div class="mobbutton"><a href="projects.html"> <button class="btn  w-100 text-start mb-2">My Projects</button></a></div>
+<div class="mobbutton"> <a href="cantact.html"> <button class="btn  w-100 text-start mb-2">Cantacts</button></a></div>
+</div>
+</div>
+<!---->
+</nav>
+</div>
+<!----->
 <div class="container py-5">
 
 <header class="text-center mb-5">
@@ -131,7 +169,7 @@
 </div>
 </div>
 </div>
-
+<script src="allscripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

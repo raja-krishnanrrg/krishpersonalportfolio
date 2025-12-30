@@ -17,6 +17,7 @@
 <div class="bodycontainresume">
 
 <!--navbar-->
+<div class="navbaring d-none d-lg-block">
 <nav class="navbar navbar-expand-lg " id="navbar">
 <div class="container-fluid ">
 <h1 class="navbar-brand" href="#"><img src="./images/krish photo02.png" alt="krish images" height="50px" width="50px" style="color: #ffff;"><b>KRISH</b> </h1>
@@ -48,20 +49,57 @@
 </div>
 </div>
 </nav>
+</div>
+
+<!--mobile navbar-->
+
+<div class="mobilenavbar">
+<nav class="p-2  text-white d-block d-md-none ">
+<div class="d-flex">
+<span style="font-size:26px; cursor:pointer;"onclick="openMenu()" class="mt-3">☰</span>
+<img class="mobilemarketlogo ms-4" src="./images/krish photo02.png" alt="" style="height: 50px; width:50px"><span class="mt-3 ms-4  "><h1><b>Krish</b></h1></span>
+
+<form class="d-flex pt-3 ms-5 ps-5" role="search">
+<a  href="https://github.com/raja-krishnanrrg" class="px-2 fs-4" ><i class="bi bi-github"></i></a>
+<a href=" https://www.linkedin.com/in/rajakrishnan017" class="px-1 fs-4"><i class="bi bi-linkedin"></i></a>
+<a href="https://www.instagram.com/_kri_zh/" class="px-1 fs-4"><i class="bi bi-instagram"></i></a>
+</form> 
+</div>
+<!---->
+<div id="mobileMenu">
+
+<!-- Close X -->
+<span class="close-btn" ><i class="bi bi-x-lg" onclick="closeMenu()"></i></span>
+
+<!-- MAIN MENU -->
+<div id="mainMenu">
+
+<h5 class="mb-3 back-btn">Menu</h5>
+<div class="mobbutton"> <a href="index.html"><button class="btn  w-100 text-start mb-2">Home</button></a></div> 
+<div class="mobbutton"> <a href="aboutme.html"><button class="btn  w-100 text-start mb-2">About Me</button></a></div>
+<div class="mobbutton"><a href="resumes.html"><button class="btn  w-100 text-start mb-2">My Resume</button></a></div>
+<div class="mobbutton"><a href="projects.html"> <button class="btn  w-100 text-start mb-2">My Projects</button></a></div>
+<div class="mobbutton"> <a href="cantact.html"> <button class="btn  w-100 text-start mb-2">Cantacts</button></a></div>
+</div>
+</div>
+<!---->
+</nav>
+</div>
+<!----->
 
 <!--navbar close-->
 <div class="container text-center">
 <h1 class=" ttcolor mt-4 text-light fs-1 "><b> RESUME</b></h1>
 <p class="para"> Just Download and view  my  Resume</p>
-<a href="https://drive.google.com/file/d/1BpX1zolhe3IbNwdbr3JrfNKbNPsRDwDn/view?usp=drivesdk " class="btn btn-custom ">Download Resume PDF</a>
+<a href="https://drive.google.com/file/d/1Ir7pd89uTrvswzFsqK0xBFTeanay4-2g/view?usp=drivesdk" class="btn btn-custom ">Download Resume PDF</a>
 <div class="resume-card text-start">
 <div class="resume-header text-center">
 <h2 class=" ttcolor fw-5 fs-2">B.RAJA KRISHNAN</h2>
 <h5 class="text-secondary para">MERN STACK DEVELOPER</h5>
 <p class="para">
-<a href="mailto:b.rajakrishnan017@gmail.com" style="color: #ffff;">b.rajakrishnan017@gmail</a> | |
-<a href="https://github.com/raja-krishnanrrg" style="color: #ffff;"> github.com/raja-krishnanrrg"</a> ||
-<a href="https://www.linkedin.com/in/rajakrishnan017"style="color: #ffff;">https://www.linkedin.com/in/rajakrishnan017</a>
+<a href="mailto:b.rajakrishnan017@gmail.com" style="color: #d3d3d3;">b.rajakrishnan017@gmail</a> | |
+<a href="https://github.com/raja-krishnanrrg" style="color: #c7c7c7;"> github.com/raja-krishnanrrg"</a> ||
+<a href="https://www.linkedin.com/in/rajakrishnan017" style="color:#d0cfcf;">https://www.linkedin.com/in/rajakrishnan017</a>
 </p>
 </div>
 
@@ -121,6 +159,7 @@ GPA: 7.5/10
 </div>
 </div>
 </div>
+<script src="allscripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
