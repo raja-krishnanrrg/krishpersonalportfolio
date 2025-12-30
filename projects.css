@@ -1,0 +1,24 @@
+ .project-card {
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-6px);
+    }
+    .project-card img {
+      height: 180px;
+     
+    }
+    .badge {
+      font-size: 12px;
+     
+    }
+.content-container{
+    background-color: #000;
+}
+.cart-contents{
+     background-color: #000;
+}
+.badge{
+    
+}
