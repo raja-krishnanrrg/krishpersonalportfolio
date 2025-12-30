@@ -155,7 +155,7 @@ b{
 
  .whatsapp-btn {
     position: fixed;
-    bottom: 90px;        /* Distance from bottom */
+    bottom: 50px;        /* Distance from bottom */
     right: 20px;         /* Distance from right */
     background: white;
     border: 2px solid #25D366;
