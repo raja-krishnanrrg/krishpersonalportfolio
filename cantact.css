@@ -39,3 +39,54 @@
 .placehold:required{
     background-color: #1e1e1e;
 }
+
+
+/*mobile-nav */
+
+mainMenu ,a,button {
+   
+    color: #fff;
+    font-weight: bolder;
+
+}
+#mobileMenu {
+      position: fixed;
+      top: 0;
+      left:-300px;
+      height: 120vh;
+      width: 300px;
+      background: #fff;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.3);
+      transition: 0.3s ease;
+      z-index: 9999;
+      padding: 20px;
+      font-weight: bolder;
+      color: #000;
+    }
+
+    #mobileMenu.active {
+      left: 0;
+    }
+
+    .back-btn {
+      cursor: pointer;
+      font-weight: bold;
+      padding-bottom: 10px;
+      display: block;
+      color: #000;
+    }
+
+    .close-btn {
+      font-size: 22px;
+      cursor: pointer;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: #000;
+    }
+/*-drop-down-menuites css-*/
+ .mobbutton :hover{
+    font-weight: bolder;
+    color: rgba(138, 28, 241);
+    font-size:16px;
+ }
