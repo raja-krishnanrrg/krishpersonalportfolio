@@ -4,6 +4,7 @@
 
     .bodycontainings{
      background:linear-gradient(rgb(0,0,0,0.50),rgb(0,0,0,0.50)), url(./images/trees.jpg) center/cover no-repeat; 
+     width: 100%;
     }
        
         .card-custom {
